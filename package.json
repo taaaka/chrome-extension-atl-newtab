@@ -1,0 +1,34 @@
+{
+  "name": "chrome-extension-atl-newtab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taaaka/chrome-extension-atl-newtab.git"
+  },
+  "author": "taaaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taaaka/chrome-extension-atl-newtab/issues"
+  },
+  "homepage": "https://github.com/taaaka/chrome-extension-atl-newtab#readme",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "5.9.0",
+    "eslint-config-prettier": "3.3.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "husky": "1.2.0",
+    "lint-staged": "8.1.0",
+    "prettier": "1.15.3"
+  }
+}

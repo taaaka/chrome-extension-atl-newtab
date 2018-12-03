@@ -1,0 +1,23 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {},
+      {
+        "usePrettierrc": true
+      }
+    ],
+
+    "no-console": "warn",
+    "prefer-const": "error",
+    "no-debugger": "warn",
+    "comma-dangle": ["error", "never"]
+  }
+}
