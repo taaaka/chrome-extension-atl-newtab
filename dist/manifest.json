@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Atlassian tools newtab",
+  "short_name": "Atl-newtab",
+  "description": "Open links in atlassian tools in new tab.",
+  "version": "0.0.0.1",
+  "content_scripts": [
+    {
+        "matches": [ "https://**/*" ],
+        "run_at": "document_start",
+        "js": [ "js/bundle.js" ]
+    }
+  ]
+}
